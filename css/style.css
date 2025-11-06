@@ -58,7 +58,30 @@ a{
 }
 
 .container-right{
+    text-shadow: 0rem 0rem 1rem black ;
+
     width: 75vw;
-    padding: 9rem;
+    padding: 9rem 9rem 6rem 9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    background-image: url(../imgs/land-o-lakes-inc-9cmbLTARQMA-unsplash\ \(1\).jpg);
+    background-size: 110%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
+.right-top{
+    font-size: 3rem;
+    align-self: flex-end;
+}
+
+.right-bottom h1{
+    font-size: 5rem;
+}
+
+.right-bottom p{
+    font-size: 2.5rem;
+    margin-top: 3rem;
+}
